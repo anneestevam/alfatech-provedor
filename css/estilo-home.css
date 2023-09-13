@@ -148,3 +148,52 @@ header a {
     font-size: 18px;
     font-weight: 600;
 }
+
+.secao-informacoes {
+    width: 100%;
+    background-color: var(--cor3);
+}
+
+.container-secao-informacoes {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.container-secao-informacoes h2 {
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-secao-informacoes span {
+    color: var(--cor1);
+}
+
+.box-informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-informacoes img {
+    width: 100px;
+}
+
+.card-informacoes h3 {
+    font-size: 18px;
+}
+
+.card-informacoes p {
+    text-align: center;
+    font-size: 16px;
+}
