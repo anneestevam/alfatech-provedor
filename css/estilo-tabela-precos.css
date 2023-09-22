@@ -1,2 +1,20 @@
 @charset "UTF-8";
 
+:root {
+    --cor1: #2f86d6;
+    --cor2: #000;
+    --cor3: #fff;
+    --cor4: #233032;
+    --cor5: #a89f9f;
+    --cor6: #f1f3f7;
+    --cor7: #f6f6f6;
+}
+
+header {
+    width: 100vw;
+    background-color: var(--cor1);
+}
+
+.logo-texto p, nav a {
+    color: var(--cor3);
+}
