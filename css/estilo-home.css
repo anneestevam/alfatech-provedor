@@ -217,7 +217,7 @@ header a {
     color: var(--cor1);
 }
 
-table {
+.tabela-planos {
     width: 1100px;
     margin: 20px auto;
     text-align: center;
@@ -226,38 +226,38 @@ table {
     box-shadow: 0 0 40px 15px var(--cor1)
 }
 
-table thead th {
+.tabela-planos > thead th {
     padding: 20px 0px;
     background-color: var(--cor3);
 }
 
-thead h3 {
+.tabela-planos > thead h3 {
     font-size: 18px;
     text-transform: uppercase;
     margin: 20px 0px;
 }
 
-thead img {
+.tabela-planos > thead img {
     width: 100px;
     margin: auto;
 }
 
-thead p {
+.tabela-planos > thead p {
     font-size: 13px;
     font-weight: 400;
     color: var(--cor5);
     margin-bottom: 10px;
 }
 
-tbody .linha-impar {
+.tabela-planos > tbody .linha-impar {
     background-color: var(--cor7);
 }
 
-tbody .linha-par {
+.tabela-planos > tbody .linha-par {
     background-color: var(--cor6);
 }
 
-tbody td {
+.tabela-planos > tbody td {
     width: calc(1100px / 4);
     font-size: 16px;
     line-height: 40px;
