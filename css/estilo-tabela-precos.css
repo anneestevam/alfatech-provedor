@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+* { overflow-y: hidden; }
+
 :root {
     --cor1: #2f86d6;
     --cor2: #000;
@@ -16,5 +18,69 @@ header {
 }
 
 .logo-texto p, nav a {
+    color: var(--cor3);
+}
+
+.secao-tabela-precos {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+.secao-tabela-precos table {
+    margin: auto;
+}
+
+.celula-escondida {
+    visibility: hidden;
+}
+.cabecalho {
+    background-color: var(--cor6);
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--cor6);
+    border-right: 1px solid var(--cor6);
+}
+
+.cabecalho > td {
+    width: 200px;
+}
+
+.cabecalho p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor5);
+}
+
+.cabecalho h3 {
+    font-size: 32px;
+}
+
+table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--cor6);
+    border-right: 1px solid var(--cor6);
+}
+
+.primeira-celula {
+    background-color: var(--cor6);
+    text-align: left;
+    font-weight: 600;
+}
+
+.marcador-azul {
+    width: 15px;
+    padding: 15px;
+    margin: auto;
+    background-color: var(--cor1);
+    border-radius: 50%;
+}
+
+footer {
+    background-color: var(--cor1);
+}
+
+.contato-rodape p {
     color: var(--cor3);
 }
