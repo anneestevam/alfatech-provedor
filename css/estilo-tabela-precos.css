@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-* { overflow-y: hidden; }
-
 :root {
     --cor1: #2f86d6;
     --cor2: #000;
@@ -12,8 +10,9 @@
     --cor7: #f6f6f6;
 }
 
+
 header {
-    width: 100vw;
+    width: 100%;
     background-color: var(--cor1);
 }
 
